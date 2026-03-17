@@ -1,3 +1,7 @@
+# Aqui é onde o Django se conecta com o site WEB
+# O padrão tradicional para servidores síncronos.
+# É o que você usará na maioria das hospedagens comuns.
+
 """
 WSGI config for learing_log project.
 
@@ -11,6 +15,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'learing_log.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "learing_log.settings")
 
 application = get_wsgi_application()

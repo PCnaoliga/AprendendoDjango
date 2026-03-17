@@ -1,4 +1,10 @@
+# Aqui é onde o Django se conecta com o site WEB
+# O asgi especificamente permite que o Django trabalhe
+# com tarefas assincronas, como WebSockets e chat em
+# tempo real
+
 """
+
 ASGI config for learing_log project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
@@ -11,6 +17,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'learing_log.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "learing_log.settings")
 
 application = get_asgi_application()
